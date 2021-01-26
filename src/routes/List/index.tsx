@@ -88,9 +88,9 @@ export default function List() {
           width={200}
           render={(text, record, index) => (
             <div>
-              <a className={styles.link} href="#" onClick={success}>
+              <span className={styles.link} onClick={success}>
                 修改
-              </a>
+              </span>
               <span className={styles.separator} />
               <Link className={styles.link} to={`/list/detail/${data[index].id}`}>
                 查看
