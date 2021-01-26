@@ -2,6 +2,7 @@
   "name": "icestark-waiter-react-ts",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@ice/stark": "^2.1.0",
     "@ice/stark-app": "^1.2.1",
